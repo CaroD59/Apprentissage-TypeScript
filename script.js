@@ -13,3 +13,15 @@ form.addEventListener('submit', function (e) {
         console.log("\n  Bienvenue ".concat(firstName.value, ".\n  Vous avez ").concat(age.value, " ans.\n  Vous aurez droit \u00E0 un cadeau quand vous aurez ").concat(gift(+age.value), " ans !"));
     }
 });
+var member = {
+    level: ['admin', 1]
+};
+member.level[0] = 'moderator';
+console.log(member.level);
+var car = {
+    color: 'red',
+    date: 2020,
+    speed: 500
+};
+console.log(car.color);
+// EXERCICES

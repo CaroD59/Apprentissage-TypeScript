@@ -17,3 +17,23 @@ form.addEventListener('submit', (e) => {
   Vous aurez droit à un cadeau quand vous aurez ${gift(+age.value)} ans !`);
   }
 });
+
+const member: {
+  level: [string, number];
+  // = TUPLE (≠ ARRAY)
+} = {
+  level: ['admin', 1],
+};
+
+member.level[0] = 'moderator';
+console.log(member.level);
+
+let car = {
+  color: 'red',
+  date: 2020,
+  speed: 500,
+};
+
+console.log(car.color);
+
+// EXERCICES
