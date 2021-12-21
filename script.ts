@@ -37,3 +37,19 @@ let car = {
 console.log(car.color);
 
 // EXERCICES
+
+// EXERCICE 1 WILD CODE SCHOOL
+function hello(name: string) {
+  console.log('Hello ' + name + ' !!');
+}
+
+const surName: string = 'Bob';
+hello(surName);
+hello(surName + ' Marley');
+
+function concat(a: string, b: string) {
+  return a + b;
+}
+
+const wcs = concat('Wild ', concat('Code ', 'School'));
+console.log(wcs);

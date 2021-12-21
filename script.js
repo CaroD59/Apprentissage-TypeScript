@@ -25,3 +25,15 @@ var car = {
 };
 console.log(car.color);
 // EXERCICES
+// EXERCICE 1 WILD CODE SCHOOL
+function hello(name) {
+    console.log('Hello ' + name + ' !!');
+}
+var surName = 'Bob';
+hello(surName);
+hello(surName + ' Marley');
+function concat(a, b) {
+    return a + b;
+}
+var wcs = concat('Wild ', concat('Code ', 'School'));
+console.log(wcs);
